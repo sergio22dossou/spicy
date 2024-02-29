@@ -35,7 +35,6 @@ test_in_chain()
     count=0
     for elem in $(ls $1 | grep txt | cut -d '.' -f 1)
     do
-        echo $elem
         solo_test $1 $elem $2 $3
     done
 }
