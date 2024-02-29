@@ -43,17 +43,14 @@ main()
 {
     if [ -e $1 ] &&  [ -e $2 ]
     then
-        cd
-        home=$(pwd)
-        cd -
         echo "1- Basic Tests"
-        test_in_chain $home/.spicy/basic $1 $2
+        test_in_chain $HOME/.spicy/basic $1 $2
         echo "2- Elementary Tests"
-        test_in_chain $home/.spicy/elementary $1 $2
+        test_in_chain $HOME/.spicy/elementary $1 $2
         echo "3- Gates Tests"
-        test_in_chain $home/.spicy/gates $1 $2
+        test_in_chain $HOME/.spicy/gates $1 $2
         echo "4- Advanced tests"
-        test_in_chain $home/.spicy/advanced $1 $2
+        test_in_chain $HOME/.spicy/advanced $1 $2
     else
         echo "$file not found"
     fi 
