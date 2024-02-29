@@ -1,0 +1,10 @@
+display
+simulate
+in_1=U
+in_2=1
+display
+simulate
+display
+in_1=1
+simulate
+display

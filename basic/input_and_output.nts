@@ -1,0 +1,14 @@
+#
+#
+#
+# in_1 link to out
+#
+#
+#
+
+.chipsets:
+    input in_1
+    output out
+
+.links:
+in_1:1                      out:1

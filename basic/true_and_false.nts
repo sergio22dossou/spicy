@@ -1,0 +1,16 @@
+
+
+
+.chipsets:
+input in
+output out
+false fl
+true tr
+output out2
+output out3
+
+.links:
+    tr:1     out:1
+    fl:1     out2:1
+    out3:1   in:1
+
