@@ -48,14 +48,14 @@ main()
         home=$(pwd)
         cd -
         echo "1- Basic Tests"
-        test_in_chain $home/.local/spicy/basic $1 $2
+        test_in_chain $home/.spicy/basic $1 $2
         echo "2- Elementary Tests"
-        test_in_chain $home/.local/spicy/elementary $1 $2
+        test_in_chain $home/.spicy/elementary $1 $2
         echo "3- Gates Tests"
-        test_in_chain $home/.local/spicy/gates $1 $2
+        test_in_chain $home/.spicy/gates $1 $2
         echo "4- Advanced tests"
-        test_in_chain $home/.local/spicy/advanced $1 $2
-    else 
+        test_in_chain $home/.spicy/advanced $1 $2
+    else
         echo "$file not found"
     fi 
 }
